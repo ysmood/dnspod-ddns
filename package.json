@@ -1,0 +1,23 @@
+{
+  "name": "dnspod-ddns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dnspod-ddns": "bin/index.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "author": "ysmood.org",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "internal-ip": "^3.0.1",
+    "nokit": "^0.27.0"
+  }
+}
